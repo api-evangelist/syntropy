@@ -1,7 +1,18 @@
 aid: syntropy
 name: Syntropy
-description: Syntropy is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Syntropy is an autonomous, agentic coding application built for complex,
+  long-horizon software engineering tasks. A developer describes a feature in
+  natural language and Syntropy plans, writes, and tests the implementation,
+  returning a production-ready pull request without the developer having to
+  manage a terminal or an IDE agent session by hand. The product emphasizes
+  large-context handling for heavy, real-world codebases ("no context ceiling,
+  no truncation"), supports custom Model Context Protocol (MCP) integrations so
+  it can pull in a team's own tools, and joins Slack to post updates as tasks
+  complete. Syntropy is a Y Combinator (Winter 2026) company based in San
+  Francisco, founded by Saahil Sundaresan and Andrew Kuik. As of this profile it
+  ships as a hosted end-user coding product and does not publish a public
+  developer API, SDK, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/syntropy/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +20,48 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://syntropy.io/og-image.png
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Agentic Coding
+- Developer Tools
+- Code Generation
+- Software Development
+- Automation
+- Model Context Protocol
 apis: []
+common:
+- type: DomainSecurity
+  url: security/syntropy-domain-security.yml
+- type: Website
+  url: https://syntropy.io/
+- type: SignUp
+  url: https://syntropy.io/signup
+- type: X
+  url: https://x.com/Syntropy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
