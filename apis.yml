@@ -68,6 +68,10 @@ tags_raw:
 - Model Context Protocol
 apis: []
 common:
+- type: Pricing
+  url: https://syntropy.io/plans
+- type: Plans
+  url: plans/syntropy-plans-pricing.yml
 - type: DomainSecurity
   url: security/syntropy-domain-security.yml
 - type: Website
